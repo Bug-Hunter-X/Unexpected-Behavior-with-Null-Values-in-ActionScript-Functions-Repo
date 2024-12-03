@@ -1,0 +1,1 @@
+This example demonstrates a common issue in ActionScript related to null values and type handling.  The `myFunction` expects two String parameters. Passing null to the second parameter does not cause a compile-time error, but might produce unexpected results in the trace statements depending on how ActionScript handles the null value in the context of string operations.
